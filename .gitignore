@@ -1,0 +1,6 @@
+#.girignore content for backend project.
+bin/
+obj/
+.env
+.DS_Store
+*.log
