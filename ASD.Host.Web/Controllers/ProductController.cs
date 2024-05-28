@@ -26,6 +26,14 @@ namespace ASD.Host.Web.Controllers
             return Ok(await _productSrvc.GetByIdAsync(id));
         }
 
+        // GET: api/Product/category/{categoryId}
+        [HttpGet("category/{categoryId}")]
+        public async Task<IActionResult> GetProductByCategoryId(int categoryId)
+        {
+            if (categoryId <= 0) return NotFound();
+            return Ok(await _productSrvc.GetProductsByCategoryId(categoryId));
+        }
+
         // POST api/<ProductController>
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] Product Product)

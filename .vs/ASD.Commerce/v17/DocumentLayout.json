@@ -1,12 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ashish.kumar.ASCENDION\\source\\repos\\ASD.Commerce\\ASD.Commerce.Backend\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\ashish.kumar.ASCENDION\\source\\repos\\Commerce\\Commerce.Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{47A53041-B5E4-4390-8098-91C43E498E1D}|ASD.Commerce.EFCore\\ASD.Commerce.EFCore.csproj|c:\\users\\ashish.kumar.ascendion\\source\\repos\\commerce\\commerce.backend\\asd.commerce.efcore\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A53041-B5E4-4390-8098-91C43E498E1D}|ASD.Commerce.EFCore\\ASD.Commerce.EFCore.csproj|solutionrelative:asd.commerce.efcore\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ashish.kumar.ASCENDION\\source\\repos\\Commerce\\Commerce.Backend\\ASD.Commerce.EFCore\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ASD.Commerce.EFCore\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ashish.kumar.ASCENDION\\source\\repos\\Commerce\\Commerce.Backend\\ASD.Commerce.EFCore\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ASD.Commerce.EFCore\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T10:08:16.356Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

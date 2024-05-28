@@ -16,5 +16,10 @@ namespace ASD.Commerce.EFCore.Repositories
         {
             return await _context.Set<Product>().Where(p => p.Price.HasValue && p.Price.Value > 0).OrderByDescending(p => p.Price).Take(count).ToListAsync();
         }
+
+        public async Task<IEnumerable<Product>> GetProductsByCategoryId(int categoryId)
+        {
+            return await _context.Set<Product>().Where(p => p.CategoryId == categoryId).ToListAsync();
+        }
     }
 }

@@ -11,5 +11,10 @@ namespace ASD.Commerce.Application.Services
         {
             return await _unitOfWork.Products.GetMostExpensiveProductsAsync(count);
         }
+
+        public async Task<IEnumerable<Product>> GetProductsByCategoryId(int categoryId)
+        {
+            return await _unitOfWork.Products.GetProductsByCategoryId(categoryId);
+        }
     }
 }

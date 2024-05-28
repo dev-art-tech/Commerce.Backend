@@ -5,5 +5,6 @@ namespace ASD.Commerce.Domain.Contracts
     public interface IProductRepo : IRepository<Product>
     {
         public Task<IEnumerable<Product>> GetMostExpensiveProductsAsync(int count);
+        public Task<IEnumerable<Product>> GetProductsByCategoryId(int categoryId);
     }
 }
